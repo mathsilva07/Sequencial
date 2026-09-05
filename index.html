@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/sequencial.css">
+</head>
+<body>
+    <section class="container">
+      <h1>Calculadora soma</h1>
+      <input type="number" id="numero1" placeholder="Digite o primeiro Número">
+      <input type="number" id="numero2" placeholder="Digite o segundo Número">
+
+      <button onclick="somar()">Calcular Soma</button>
+    
+    <h2 id="resultado1">Resultado: </h2>
+    </section>
+
+<section class="container"><h1>Converter Celsius para Farenheit</h1>
+
+<input type="number" id="celsius" placeholder="Digite a temperatura">
+
+<button onclick="converter()">Converter</button>
+
+<h2 id="resultado2">Resultado: </h2>
+</section>
+
+<section class="container">
+    <h1>Calcular o volume de uma lata</h1>
+    <input type="number" id="altura" placeholder="Digite a altura">
+    <input type="number" id="raio" placeholder="Digite o raio">
+
+<button onclick="mostrarresultado()">Calcular Volume</button>
+
+    <h2 id="resultado3">Resultado: </h2>
+</section>
+
+<section class="container">
+    <h1>Calcular o volume de uma caixa retangular</h1>
+    <input type="number" id="comprimento" placeholder="Digite o comprimento">
+    <input type="number" id="largura" placeholder="Digite a largura">
+    <input type="number" id="altura2" placeholder="Digite a altura">
+
+<button onclick="volumecaixa()">Calcular Volume</button>
+
+    <h2 id="resultado4">Resultado: </h2>
+</section>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
